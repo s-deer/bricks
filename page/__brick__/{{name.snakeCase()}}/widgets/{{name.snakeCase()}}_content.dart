@@ -1,4 +1,4 @@
-import 'package:flutter/widgets.dart';
+import 'package:flutter/material.dart';
 
 class {{name.pascalCase()}}Content extends StatelessWidget {
   const {{name.pascalCase()}}Content({Key? key}) : super(key: key);
@@ -6,7 +6,7 @@ class {{name.pascalCase()}}Content extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Text('{{name.sentenceCase()}} Page'),
+      child: Text('{{name.pascalCase()}}Page'),
     );
   }
 }
